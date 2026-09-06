@@ -1,11 +1,11 @@
-# PFM Creative Tracking
+# Creative tracking pipeline
 
-Password-protected interactive walkthrough. Open the GitHub Pages URL and enter the shared password.
+Password-protected interactive walkthrough. Open [the exhibit](https://pfmgabe.github.io/pfm-creative-tracking-pipeline/) and enter the shared password.
 
-The deployable `index.html` contains encrypted application content generated with StatiCrypt 3.5.4. The password is not stored in this repository. Credentials are not remembered; refresh or choose **Lock page** to lock again.
+The deployable `index.html` contains encrypted application content generated with StatiCrypt 3.5.4. The password is not stored in this repository. Credentials are not remembered; refreshing locks the page again.
 
-Editable source and plaintext build inputs are kept outside the deployment directory. Only the encrypted page, public icon and build notes belong here.
+This deployment contains the encrypted page, seven authenticated encrypted media assets, public icon and license/build notes. The media key, application code and supporting documents are inside the password-encrypted page. Editable source and plaintext build inputs remain outside this public repository.
 
 This is static client-side encryption, not server-side user authentication. The original public version may already have been copied.
 
-StatiCrypt is distributed under the included MIT license. See [StatiCrypt](https://github.com/robinmoisson/staticrypt) for its encryption model.
+StatiCrypt is distributed under the included MIT license. See [StatiCrypt](https://github.com/robinmoisson/staticrypt) for its encryption model. Additional dependency and font licenses are in `LICENSES.txt`.
